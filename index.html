@@ -8,21 +8,31 @@
 <link rel="stylesheet" href="Libraries/bootstrap.min.css"/>
 </head>
 <body>
-<ul class="nav nav-tabs nav-fill pullUpDown">
-  <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#" id="starter" name="story">Our Story</a> </li>
-  <li class="nav-item"> <a class="nav-link" href="#" name="teams">Our Teams</a> </li>
-  <li class="nav-item"> <a class="nav-link" href="#" name="first">First</a> </li>
-  <li class="nav-item"> <a class="nav-link" name="sponsors">Our Sponsors</a> </li>
-  <li class="nav-item"> <a class="nav-link" name="contact">Contact Us</a> </li>
-</ul>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+	<div class="container-fluid">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPages" aria-controls="navbarPages" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarPages">
+    <ul class="navbar-nav">
+      <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#" id="starter" name="story">Our Story</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#" name="teams">Our Teams</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#" name="first">First</a> </li>
+      <li class="nav-item"> <a class="nav-link" name="gallery">Gallery</a> </li>
+      <li class="nav-item"> <a class="nav-link" name="contact">Contact Us</a> </li>
+    </ul>
+  </div>
+</div>
+</nav>
+<!--"Pages"-->
 <div id="story" class="folder">Our Story</div>
 <div id="teams" class="folder">Our Teams</div>
 <div id="first" class="folder">First</div>
-<div id="sponsors" class="folder">Our Sponsors</div>
+<div id="gallery" class="folder">Gallery</div>
 <div id="contact" class="folder">Contact Us</div>
 <script src="Libraries/jquery-3.6.0.min.js"></script> 
-<script src="Libraries/bootstrap.min.js"></script>
-<script src="Libraries/Opener.js"></script>
+<script src="Libraries/bootstrap.min.js"></script> 
+<script src="Libraries/Opener.js"></script> 
 <script src="index.js"></script>
 </body>
 </html>
