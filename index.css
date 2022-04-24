@@ -1,4 +1,42 @@
 @charset "UTF-8";
+img{
+	width: inherit;
+	height: auto;
+}
+
 .folder{
 	padding: 1rem;
+}
+#imageCaption1{
+	background-color: bisque;
+	font-size: 10vw;
+	padding: inherit;
+}
+.parallax {
+  /* The image used */
+  background-image: url("placeholder.png");
+  min-height: 50vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row{
+	padding: inherit;
+}
+.col-sm-3{
+	text-align: center
+}
+#col1{
+	background-color: blue;
+}
+#col2{
+	background-color: red;
+}
+#col3{
+	background-color: chartreuse;
+}
+#col4{
+	background-color: darkgoldenrod;
 }
