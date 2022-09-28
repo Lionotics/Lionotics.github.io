@@ -1,48 +1,62 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8"/>
-<meta name="Lionotics" content="YUHSB Robotics Team"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" href="index.css"/>
-<link rel="stylesheet" href="Libraries/bootstrap.min.css"/>
+    <meta charset="UTF-8"/>
+    <meta name="Lionotics" content="YUHSB Robotics Team"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="Libraries/bootstrap.min.css"/>
 </head>
 <body>
 <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-secondary">
-  <div class="container-fluid"> <span class="navbar-brand">Logo Here</span>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPages" aria-controls="navbarPages" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-    <div class="collapse navbar-collapse" id="navbarPages">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#" id="starter" name="story">Our Story</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" name="teams">Our Teams</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" name="first">FIRST®</a> </li>
-        <li class="nav-item"> <a class="nav-link" name="gallery">Gallery</a> </li>
-        <li class="nav-item"> <a class="nav-link" name="contact">Contact Us</a> </li>
-      </ul>
+    <div class="container-fluid"><span class="navbar-brand">Logo Here</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPages"
+                aria-controls="navbarPages" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarPages">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#" id="starter" name="home">Home</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#" name="outreach">Our Teams</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" name="sponsors">FIRST®</a></li>
+                <li class="nav-item"><a class="nav-link" name="first">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" name="contact">Contact Us</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
 <!--"Pages"-->
-<div id="story" class="folder">
-<div class="parallax"></div>
-  <div id="imageCaption1"> Caption here <br/>
-    This div is just here <br/>
-	  to enable scrolling.
-  </div>
- <div class="row">
-  <div class="col-sm-3" id="col1"><h1>1</h1><p>Text<br/>on<br/>multiple<br/>lines.</p></div>
-  <div class="col-sm-3" id="col2"><h1>2</h1><p>Text<br/>on<br/>multiple<br/>lines.</p></div>
-  <div class="col-sm-3" id="col3"><h1>3</h1><p>Text<br/>on<br/>multiple<br/>lines.</p></div>
-  <div class="col-sm-3" id="col4"><h1>4</h1><p>Text<br/>on<br/>multiple<br/>lines.</p></div>
-</div> 
+<div id="home" class="folder">
+    <div class="parallax"></div>
+    <div id="imageCaption1">
+        <h3>Welcome!</h3>
+        <h5>We are Lionotics, a pair of robotics teams based out of Marsha Stern Talmudical Academy. Our robotics team
+            was first formed in 2011, and has grown to being two teams and over twenty students. Our teams compete in
+            the First Tech Challenge, in which teams design, program, and build a robot that performs an annually
+            assigned task.</h5>
+
+    </div>
+    <div class="row">
+        <div class="col-sm-4" id="col1"><h3>Mission Statement</h3>
+            <h5>Our team was founded to give students in our school more hands-on opportunities with STEM, and we
+                continue to try to spread this mission. You can learn more about our outreach here
+                <!--TODO: Make it a link--> </h5></div>
+        <div class="col-sm-4" id="col2"><h3>Our Teams</h3>
+            <h5>Lionotics was founded in 2011 with FTC team number 5361. After a few years student interest peaked
+                beyond the capacity of the team, so another team was founded with FTC team number 13475. Both remain
+                active, with strong student bodies for each.</h5></div>
+        <div class="col-sm-4" id="col3"><h3>Our Sponsors</h3>
+            <h5>Quot urbanitas numquam fringilla senserit quidam enim vel. Prompta interpretaris altera adversarium
+                efficitur constituam. Maiestatis maecenas ignota ex consul erroribus id esse.</h5></div>
+    </div>
 </div>
-<div id="teams" class="folder">Our Teams</div>
-<div id="first" class="folder">FIRST®</div>
-<div id="gallery" class="folder">Gallery</div>
+<div id="outreach" class="folder">Our Teams</div>
+<div id="sponsors" class="folder">FIRST®</div>
+<div id="first" class="folder">Gallery</div>
 <div id="contact" class="folder">Contact Us</div>
-<script src="Libraries/jquery-3.6.0.min.js"></script> 
-<script src="Libraries/bootstrap.min.js"></script> 
-<script src="Libraries/Opener.js"></script> 
+<script src="Libraries/jquery-3.6.0.min.js"></script>
+<script src="Libraries/bootstrap.min.js"></script>
+<script src="Libraries/Opener.js"></script>
 <script src="index.js"></script>
 </body>
 </html>

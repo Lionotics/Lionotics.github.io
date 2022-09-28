@@ -1,42 +1,45 @@
 @charset "UTF-8";
-img{
-	width: inherit;
-	height: auto;
+img {
+    width: inherit;
+    height: auto;
 }
 
-.folder{
-	padding: 1rem;
+#imageCaption1 {
+    background-color: #A2E8DD;
+    padding: 1rem;
 }
-#imageCaption1{
-	background-color: bisque;
-	font-size: 10vw;
-	padding: inherit;
-}
+
 .parallax {
-  /* The image used */
-  background-image: url("placeholder.png");
-  min-height: 50vh;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* The image used */
+    background-image: url("placeholder.png");
+    min-height: 50vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.row{
-	padding: inherit;
+
+.row {
+    padding: inherit;
 }
-.col-sm-3{
-	text-align: center
+
+.col-sm-4 {
+    text-align: center
 }
-#col1{
-	background-color: blue;
+
+#col1 {
+    background-color: #32DE8A;
 }
-#col2{
-	background-color: red;
+
+#col2 {
+    background-color: #372772;
 }
-#col3{
-	background-color: chartreuse;
+
+#col3 {
+    background-color: #FC9E4F;
 }
-#col4{
-	background-color: darkgoldenrod;
+
+.nav-link {
+    cursor: pointer;
 }
